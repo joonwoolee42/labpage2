@@ -8,14 +8,10 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-<div class="publications">
- <span style="color: red;">ASIACRYPT 2023</span>, December 2023 (Top-tier cryptography conference)</li>
-</div>
 
 ## International Conferences
 
 <div class="publications">
-
 <ol>
   <li><b>Joon-Woo Lee</b>, Eunsang Lee*, Young-Sik Kim*, Jong-Seon No, <a href="https://eprint.iacr.org/2022/532" class="custom-link">"Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption"</a>, accepted for 
   <span style="color: red;">ASIACRYPT 2023</span>, December 2023 (Top-tier cryptography conference)</li>
