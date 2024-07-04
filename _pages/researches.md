@@ -6,9 +6,6 @@ nav: true
 nav_order: 3 
 ---
 
-# Researches
-<br/>
-
 ---
 
 ### Private Artificial Intelligence

@@ -8,10 +8,7 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
-## International Conferences
-
 <div class="publications">
-
 <ol>
   <li><b>Joon-Woo Lee</b>, Eunsang Lee*, Young-Sik Kim*, Jong-Seon No, <a href="https://eprint.iacr.org/2022/532" class="custom-link">"Rotation Key Reduction for Client-Server Systems of Deep Neural Network on Fully Homomorphic Encryption"</a>, accepted for 
   <span style="color: red;">ASIACRYPT 2023</span>, December 2023 (Top-tier cryptography conference)</li>
@@ -20,9 +17,6 @@ nav_order: 2
   <li><b>Joon-Woo Lee*</b>, Eunsang Lee, Yongwoo Lee, Young-Sik Kim, and Jong-Seon No, <a href="https://www.example.com" class="custom-link">"High-precision bootstrapping of RNS-CKKS homomorphic encryption using optimal minimax polynomial approximation and inverse sine function"</a>, <span style="color: red;">EUROCRYPT 2021</span>, October 2021 (Top-tier cryptography conference)</li>
   <li><b>Joon-Woo Lee</b>, Jae-Won Kim*, and Jong-Seon No, <a href="https://www.example.com" class="custom-link">"Improvement of extended least difference greedy clique-cover algorithm for index coding"</a>, <span style="color: red;">ICTC 2018</span>, October 2018.</li>
 </ol>
-
-
-## International Journals
 
 <ol>
   <li>Junghyun Lee, Eunsang Lee*, <b>Joon-Woo Lee*</b>, Yongjune Kim, Young-Sik Kim and Jong-Seon No, <a href="https://www.example.com" class="custom-link">"Precise Approximation of Convolutional Neural Networks for Homomorphically Encrypted Data"</a>, <span style="color: red;">IEEE Access</span>, June 2023.</li>
