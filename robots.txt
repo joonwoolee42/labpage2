@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Yuria20.github.io/sitemap.xml
+Sitemap: https://Yuria20.github.io/Yuria20//sitemap.xml
