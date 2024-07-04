@@ -9,7 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 <div class="publications">
-
+ <span style="color: red;">ASIACRYPT 2023</span>, December 2023 (Top-tier cryptography conference)</li>
 {% bibliography %}
 
 </div>
