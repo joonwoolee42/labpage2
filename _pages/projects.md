@@ -1,65 +1,43 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 5 
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## OnGoing projects
 
-{% else %}
+---
 
-<!-- Display projects without categories -->
+- **Development of High-Efficiency PQC Security and Performance Verification Technology for Low-Specification Devices** (저사양 디바이스 대상 고효율 PQC 안전성 및 성능 검증 기술 개발), 2021.04.01.~2024.12.31, Institute of Information & Communications Technology Planning & Evaluation (IITP)
+<br/>
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+---
 
-  <!-- Generate cards for each project -->
+- **Development of a User-Friendly and Efficiency-Optimized Real-Time Homomorphic Statistical Analysis Processing Platform** (사용자 친화적이고 효율성을 최적화한 실시간 동형 통계분석처리 플랫폼 개발), 2024.04.01. ~ 2026.12.31, Institute of Information & Communications Technology Planning & Evaluation (IITP)
+<br/>
 
-{% if page.horizontal %}
+---
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+- **Development of Post-Quantum Security Infrastructure Transition and Comprehensive Quantum Security Verification Technology** (양자안전 보안인프라 전환 및 대양자 복합 안전성 검증기술 개발), 2024.04.01. ~ 2027.12.31, Institute of Information & Communications Technology Planning & Evaluation (IITP)
+<br/>
+
+---
+
+- **Development of Privacy-Preserving Multi-Party Computation Technology for Secure Multi-Party Data Integration** (안전한 다자간 데이터 결합을 위한 프라이버시 보존형 다자간 비밀연산 기술개발), 2024.04.01. ~ 2029.12.31, Institute of Information & Communications Technology Planning & Evaluation (IITP)
+<br/>
+
+---
+
+<br/>
+
+## Completed projects
+
+---
+
+- **Construction and Optimization of a GPU-Based Homomorphic Encryption Library** (GPU 기반 동형암호 라이브러리 구축 및 최적화), 2022.11.01. ~ 2023.10.31, Samsung Advanced Institute of Technology (SAIT)
+<br/>
+
+---
