@@ -4,7 +4,9 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      {% for profile in page.profiles %}
+      {% for category in page.profiles %}
+      <br><h2 style="font-size: 20px, font-weight: 900">{{ category.subtitle }}</h2>
+      {% for profile in category.people %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
@@ -30,6 +32,7 @@ layout: page
             {{ content }}
           {% endif %}
         </div>
+        {% endfor %}
       {% endfor %}
     {% endif %}
   </article>
